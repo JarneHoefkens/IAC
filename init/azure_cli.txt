@@ -1,0 +1,4 @@
+az vm delete --resource-group rg_iac7 --name web-server --yes
+az vm create --name web-server --resource-group rg_iac7 --image UbuntuLTS --size Standard_B1s --admin-username azureuser --ssh-key-values /var/lib/jenkins/ssh_key.pub
+az vm open-port --resource-group rg_iac7 --name web-server --port 80,443,22
+az network public-ip update --resource-group rg_iac7 --name web-serverPublicIP --dns-name iac7
