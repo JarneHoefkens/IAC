@@ -3,8 +3,8 @@
 # script to install all necessary components on the webserver
 
 # get nessacary files from GitHub, files are used later in the setup script
-sudo wget --header='Authorization: token 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' https://raw.githubusercontent.com/LienHoudenaert/IAC7/main/infrastructure/application.conf -O application.conf
-sudo wget --header='Authorization: token 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' https://raw.githubusercontent.com/LienHoudenaert/IAC7/main/infrastructure/hosting.sql -O hosting.sql
+sudo wget --header='Authorization: token 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' https://raw.githubusercontent.com/JarneHoefkens/IAC/main/application/config.php -O application.conf
+sudo wget --header='Authorization: token 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' https://raw.githubusercontent.com/JarneHoefkens/IAC/main/infrastructure/hosting.sql -O hosting.sql
 
 # update and upgrade of the server
 sudo apt-get update
