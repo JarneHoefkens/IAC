@@ -3,9 +3,9 @@
 # script to setup the server
 
 # get files needed for server setup
-sudo wget --header='Authorization: token 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' https://raw.githubusercontent.com/LienHoudenaert/IAC7/main/infrastructure/server_setup.sh -O server_setup.sh
-sudo wget --header='Authorization: token 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' https://raw.githubusercontent.com/LienHoudenaert/IAC7/main/infrastructure/application.conf -O application.conf
-sudo wget --header='Authorization: token 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' https://raw.githubusercontent.com/LienHoudenaert/IAC7/main/infrastructure/hosting.sql -O hosting.sql
+sudo wget --header='Authorization: token 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' https://raw.githubusercontent.com/JarneHoefkens/IAC/main/infrastructure/server_setup.sh -O server_setup.sh
+sudo wget --header='Authorization: token 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' https://raw.githubusercontent.com/JarneHoefkens/IAC/main/infrastructure/application.conf -O application.conf
+sudo wget --header='Authorization: token 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' https://raw.githubusercontent.com/JarneHoefkens/IAC/main/infrastructure/hosting.sql -O hosting.sql
 
 # give execution permissions to server_setup.sh script
 sudo chmod +x server_setup.sh

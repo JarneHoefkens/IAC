@@ -3,7 +3,7 @@
 # script to get the application from GitHub running on server
 
 # clone GitHub repo, move application folder to /var/www/html/
-sudo git clone https://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@github.com/LienHoudenaert/IAC7.git
+sudo git clone https://github.com/JarneHoefkens/IAC.git
 sudo mv IAC7/application /var/www/html/application
 
 # give permissions to application folder
